@@ -1,4 +1,5 @@
 import React from "react";
+
 import NavLinks from "../common/coreComponent/NavLinks";
 
 function NavBar() {
@@ -23,7 +24,15 @@ function NavBar() {
 
       {/* Hire Me Button */}
       <div>
-        <button className="text-white border-2 border-white px-6 py-2 rounded-full hover:bg-white hover:text-black transition">
+        <button
+          onClick={() =>
+            window.open(
+              "https://ranjan-supriya-portfolio.lovable.app",
+              "_blank"
+            )
+          }
+          className="text-white border-2 border-white px-6 py-2 rounded-full hover:bg-white hover:text-black transition"
+        >
           HIRE ME
         </button>
       </div>
