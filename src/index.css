@@ -9,10 +9,11 @@
   color: #FFFFFF;
   background-color: #010208;
 
-  /* font-synthesis: none;
+  font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
+  -moz-osx-font-smoothing: grayscale;
+  width: fit-content;
 }
 
 @keyframes scroll {
@@ -65,15 +66,15 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 } */
 
-/* @media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    /* color: #FFFFFF;
+    background-color: #010208; */
   }
-  a:hover {
+  /* a:hover {
     color: #747bff;
   }
   button {
     background-color: #f9f9f9;
-  }
-} */
+  } */
+}
