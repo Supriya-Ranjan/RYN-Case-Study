@@ -1,36 +1,20 @@
 import Hero from "./HomeComponents/Hero";
 import Title from "../common/coreComponent/Title";
 import Work from "./HomeComponents/Work";
+import Experience from "./HomeComponents/Experience";
+import Blog from "./HomeComponents/Blog";
+import TestimonialSlider from "./HomeComponents/TestimonialSlider";
 
 import {
   EXPERTISE_CONFIG,
   WORK_CONFIG,
-  WORKS,
-  BLOGS,
   BLOGS_CONFIG,
   EXPERIENCES_CONFIG,
+  TESTIMONIALS,
 } from "../common/enums/home";
 
-import bullet from "../assets/img/bullet.svg";
-import work1 from "../assets/img/work1.png";
-import work2 from "../assets/img/work2.png";
-import work3 from "../assets/img/work3.png";
-import star from "../assets/img/star.svg";
-import Experience from "./HomeComponents/Experience";
-import Blog from "./HomeComponents/Blog";
-
 function Home() {
-  const workImages = {
-    [WORKS.ANALYSIS]: work1,
-    [WORKS.FORTKNOX]: work2,
-    [WORKS.ZENOCIDE]: work3,
-  };
-
-  const blogImages = {
-    [BLOGS.BLOG_1]: work1,
-    [BLOGS.BLOG_2]: work2,
-    [BLOGS.BLOG_3]: work3,
-  };
+  const star = "../../public/assets/img/star.svg";
 
   return (
     <div className="flex flex-col gap-10">
@@ -58,10 +42,10 @@ function Home() {
         <Title path={star} name="Work" isViewAll />
 
         <div className="flex flex-col gap-5">
-          {Object.values(WORK_CONFIG).map((work) => (
+          {WORK_CONFIG.map((work, index) => (
             <Work
-              key={work?.key}
-              img={workImages[work?.key] || null}
+              key={index}
+              img={work?.img || null}
               title={work?.title}
               desc={work?.desc}
               tags={work?.tags}
@@ -92,10 +76,10 @@ function Home() {
         <Title path={star} name="Blog" isViewAll />
         <div className="flex flex-col gap-5">
           <div className="flex flex-col gap-5">
-            {Object.values(BLOGS_CONFIG).map((blog) => (
+            {BLOGS_CONFIG.map((blog, index) => (
               <Blog
-                key={blog?.key}
-                img={blogImages[blog?.key] || null}
+                key={index}
+                img={blog?.img || null}
                 title={blog?.title}
                 date={blog?.date}
                 tags={blog?.tags}
@@ -104,6 +88,12 @@ function Home() {
             ))}
           </div>
         </div>
+      </div>
+
+      {/* Testimonial */}
+      <div className="flex flex-col mt-10">
+        <Title path={star} name="What they say" />
+        <TestimonialSlider testimonials={TESTIMONIALS} />
       </div>
     </div>
   );

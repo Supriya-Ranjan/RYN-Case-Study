@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../assets/img/logo.svg"; // Ensure the path to your logo is correct
 import NavLinks from "../common/coreComponent/NavLinks";
 
 function NavBar() {
@@ -7,7 +6,11 @@ function NavBar() {
     <div className="flex justify-between items-center px-8 py-4 bg-black border-b border-gray-800">
       {/* Logo Section */}
       <div className="flex-shrink-0">
-        <img src={logo} alt="Logo" className="w-12" />
+        <img
+          src="../../public/assets/img/logo.svg"
+          alt="Logo"
+          className="w-12"
+        />
       </div>
 
       {/* Navigation Links */}

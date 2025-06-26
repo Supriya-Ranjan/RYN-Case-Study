@@ -5,6 +5,9 @@ import NavBar from "./components/NavBar";
 import About from "./components/About";
 import Project from "./components/Project";
 import Contact from "./components/Contact";
+import FAQ from "./common/coreComponent/FAQ";
+import { FAQ_LIST } from "./common/enums/core";
+import Footer from "./common/coreComponent/Footer";
 
 function App() {
   return (
@@ -18,7 +21,9 @@ function App() {
             <Route path="/project" element={<Project />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
+          <FAQ faqList={FAQ_LIST} />
         </div>
+        <Footer />
       </div>
     </Router>
   );
