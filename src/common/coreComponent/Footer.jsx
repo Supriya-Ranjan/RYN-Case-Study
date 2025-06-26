@@ -25,7 +25,7 @@ const Footer = () => {
           className="text-lg font-medium hover:underline flex justify-center items-center space-x-2"
         >
           <span>supriya.ranjan2001@gmail.com</span>
-          <img src="../../../public/assets/img/upVector.svg" alt="arrow" />
+          <img src="/assets/img/upVector.svg" alt="arrow" />
         </a>
       </div>
       <div className="flex justify-between items-center mx-20 mt-5">

@@ -19,21 +19,21 @@ export const EXPERTISE_CONFIG = [
 
 export const WORK_CONFIG = [
   {
-    img: "../../public/assets/img/work1.png",
+    img: "/assets/img/work1.png",
     title: "Analysis Application",
     desc: "With user-centered approach, the goals was to create an intuitive interface for enhanced financial intelligence.",
     tags: ["FIGMA", "UX"],
     btnText: "View Case Study",
   },
   {
-    img: "../../public/assets/img/work2.png",
+    img: "/assets/img/work2.png",
     title: "Fortknox Application",
     desc: "With user-centered approach, the goals was to create an intuitive interface for enhanced financial intelligence.",
     tags: ["MOBILE", "WEB"],
     btnText: "View Case Study",
   },
   {
-    img: "../../public/assets/img/work3.png",
+    img: "/assets/img/work3.png",
     title: "Zenocide Application",
     desc: "With user-centered approach, the goals was to create an intuitive interface for enhanced financial intelligence.",
     tags: ["APP", "WEB"],
@@ -66,21 +66,21 @@ export const EXPERIENCES_CONFIG = [
 
 export const BLOGS_CONFIG = [
   {
-    img: "../../public/assets/img/work1.png",
+    img: "/assets/img/work1.png",
     title: "How UX works in web",
     date: "Nov 9, 2023",
     tags: ["UI", "UX"],
     btnText: "Read",
   },
   {
-    img: "../../public/assets/img/work2.png",
+    img: "/assets/img/work2.png",
     title: "Case study - Analysis Application.",
     date: "Aug 18, 2023",
     tags: ["DESIGN", "PRINT"],
     btnText: "Read",
   },
   {
-    img: "../../public/assets/img/work3.png",
+    img: "/assets/img/work3.png",
     title: "3 ways to develop your skill",
     date: "Feb 16, 2023",
     tags: ["FIGMA", "WEB"],
@@ -90,21 +90,21 @@ export const BLOGS_CONFIG = [
 
 export const TESTIMONIALS = [
   {
-    img: "../../../public/assets/img/people1.png",
+    img: "/assets/img/people1.png",
     name: "Floyd Miles",
     company: "eBay",
     feedback:
       "Synergy's resume builder is fantastic. It helped me create a professional resume that stood out to employers.",
   },
   {
-    img: "../../../public/assets/img/people1.png",
+    img: "/assets/img/people1.png",
     name: "Jane Cooper",
     company: "Microsoft",
     feedback:
       "This platform simplified the entire job search process for me. Highly recommended!",
   },
   {
-    img: "../../../public/assets/img/people1.png",
+    img: "/assets/img/people1.png",
     name: "Albert Flores",
     company: "Google",
     feedback:

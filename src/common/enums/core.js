@@ -20,13 +20,13 @@ export const FAQ_LIST = [
 ];
 
 export const FOOTER_IMAGES = [
-  "../../../public/assets/img/star.svg",
-  "../../../public/assets/img/webflow.svg",
-  "../../../public/assets/img/star.svg",
-  "../../../public/assets/img/figma.svg",
-  "../../../public/assets/img/star.svg",
-  "../../../public/assets/img/designer.svg",
-  "../../../public/assets/img/star.svg",
-  "../../../public/assets/img/developer.svg",
-  "../../../public/assets/img/star.svg",
+  "/assets/img/star.svg",
+  "/assets/img/webflow.svg",
+  "/assets/img/star.svg",
+  "/assets/img/figma.svg",
+  "/assets/img/star.svg",
+  "/assets/img/designer.svg",
+  "/assets/img/star.svg",
+  "/assets/img/developer.svg",
+  "/assets/img/star.svg",
 ];

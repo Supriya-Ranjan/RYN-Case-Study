@@ -14,7 +14,7 @@ import {
 } from "../common/enums/home";
 
 function Home() {
-  const star = "../../public/assets/img/star.svg";
+  const star = "/assets/img/star.svg";
 
   return (
     <div className="flex flex-col gap-10">

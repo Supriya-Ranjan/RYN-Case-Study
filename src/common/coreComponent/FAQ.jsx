@@ -11,10 +11,7 @@ const FAQ = ({ faqList }) => {
 
   return (
     <div className="flex flex-col mt-10">
-      <Title
-        path="../../public/assets/img/star.svg"
-        name="Frequently asked questions"
-      />
+      <Title path="/assets/img/star.svg" name="Frequently asked questions" />
       <div className="bg-black text-white px-6 py-8 space-y-4 w-full mx-auto">
         {faqList.map((item) => (
           <div key={item.id} className="pb-4">

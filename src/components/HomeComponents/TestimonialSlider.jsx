@@ -43,7 +43,7 @@ const TestimonialSlider = ({ testimonials }) => {
         </div>
         <div className="flex-2 text-2xl italic mb-4 relative">
           <img
-            src="../../../public/assets/img/quote.svg"
+            src="/assets/img/quote.svg"
             alt="img"
             className="absolute top-0 left-0 w-15 -z-10"
           />

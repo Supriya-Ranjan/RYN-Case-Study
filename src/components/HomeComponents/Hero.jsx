@@ -5,14 +5,14 @@ function Hero() {
         <div class="flex flex-wrap justify-center items-center text-white font-syne font-extrabold text-5xl md:text-6xl gap-5">
           <span>I AM A</span>
           <img
-            src="../../../public/assets/img/hero1.jpg"
+            src="/assets/img/hero1.jpg"
             alt="icon"
             class="w-22 h-12 rounded-full object-cover"
           />
           <span>FREELANCE</span>
           <span>DESIGNER</span>
           <img
-            src="../../../public/assets/img/hero2.png"
+            src="/assets/img/hero2.png"
             alt="icon"
             class="w-22 h-12 rounded-full object-cover"
           />
@@ -22,26 +22,15 @@ function Hero() {
 
         <div className="flex items-center mt-15">
           <div className="flex-1">
-            <img
-              src="../../../public/assets/img/doradesign.svg"
-              alt="doraDesign"
-            />
+            <img src="/assets/img/doradesign.svg" alt="doraDesign" />
           </div>
 
           <div className="flex-1">
-            <img
-              src="../../../public/assets/img/wave.svg"
-              alt="wave"
-              className="flex-1"
-            />
+            <img src="/assets/img/wave.svg" alt="wave" className="flex-1" />
           </div>
 
           <div className="flex-1">
-            <img
-              src="../../../public/assets/img/silsla.svg"
-              alt="silsla"
-              className="flex-1"
-            />
+            <img src="/assets/img/silsla.svg" alt="silsla" className="flex-1" />
           </div>
 
           <div className="flex-2">

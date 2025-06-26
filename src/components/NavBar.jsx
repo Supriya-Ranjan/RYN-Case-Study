@@ -7,11 +7,7 @@ function NavBar() {
     <div className="flex justify-between items-center px-8 py-4 bg-black border-b border-gray-800">
       {/* Logo Section */}
       <div className="flex-shrink-0">
-        <img
-          src="../../public/assets/img/logo.svg"
-          alt="Logo"
-          className="w-12"
-        />
+        <img src="/assets/img/logo.svg" alt="Logo" className="w-12" />
       </div>
 
       {/* Navigation Links */}
